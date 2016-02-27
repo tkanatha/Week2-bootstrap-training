@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+   <title></title>
+
+    <link href="css/bootstrap.css" rel="stylesheet">
+      <link href="css/mystyles.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+  </head>
+  <body>
+      
+      <nav class="navbar navbar-default">
+          <div class="container-fluid">
+              <!--start collapsed navbar-->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" 
+                        data-toggle="collapse" data-target="#main_navbar" aria-expanded="false" >Menu</button>  
+            </div><!--end collapsed navbar-->
+              <!--start uncollapsed navbar-->
+            <div class="collapse navbar-collapse" id="main_navbar"> 
+                <ul class="nav navbar-nav" >
+                    <li class="active"><a href = "index.html">Home</a></li>
+                    <li><a href = "about.html">About</a></li>
+                    <li><a href = "task.html">Task</a></li>
+                </ul>
+            </div><!--end uncollapsed navbar-->      
+          </div><!-- container-->
+          </nav>
+      <header class="jumbotron"><h1 id="ttm">Total Task Manager</h1></header>
+        <div class="container">
+            
+            <ol class="breadcrumb">
+                <li><a href ="index.html">Home</a></li>
+            </ol>
+            <h2 id="ttm">Welcome to your task Manager</h2>
+            <div class="row_content">
+                
+                <div class="row">
+                    
+                    <div class="col-xs-12 col-md-6">
+                        <strong>Unfinished Tasks</strong>
+                        <ol>
+                            <li><a href ="task.html">Finish Exercise</a></li>
+                            <li><a href ="task.html">Mark Test</a></li>
+
+                        </ol>
+                    </div>
+                    <div class="col-xs-12 col-md-6">
+                        <strong>Finished Tasks</strong>
+                        <ol>
+                            <li><a href ="task.html">View videos</a></li>
+                            <li><a href ="task.html">Answer quizzes</a></li>
+
+                        </ol>
+                    </div>
+                    
+                        </div>
+                </div>
+            </div>
+      </div>
+      
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+  </body>
+</html>
